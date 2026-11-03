@@ -1,0 +1,13 @@
+Dépose ici tes images avec EXACTEMENT ces noms :
+
+logo.png          -> logo de l'école (idéalement carré, fond transparent)
+fondatrice.jpg    -> photo de la fondatrice (format portrait)
+photo-1.jpg       -> photo principale (hero) — portrait de préférence
+photo-2.jpg       -> jardin d'enfants
+photo-3.jpg       -> primaire
+photo-4.jpg       -> collège
+photo-5.jpg       -> lycée
+photo-5.jpg à photo-7.jpg -> galerie (photo-5 = lycée/partage, photo-6 = cérémonies, photo-7 = réussites)
+
+Tant qu'une image est absente, le site affiche un emplacement élégant à la place.
+Conseil : images en .jpg de moins de 400 Ko chacune (compresse-les avec squoosh.app).
