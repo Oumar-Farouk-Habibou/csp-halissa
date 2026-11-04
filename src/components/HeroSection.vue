@@ -8,7 +8,7 @@ const years = computed(() => new Date().getFullYear() - school.founded)
 <template>
   <section id="accueil" class="hero">
     <div class="container hero-in">
-      <div class="hero-text">
+      <div class="hero-text"> 
         <span v-reveal class="pill">Complexe Scolaire Privé · Depuis {{ school.founded }}</span>
         <h1 v-reveal>Là où chaque enfant révèle son <em>potentiel</em>.</h1>
         <p v-reveal class="lead">Du jardin d'enfants au lycée, le CSP Halissa accompagne vos enfants vers l'excellence, avec exigence, bienveillance et ouverture sur le monde.</p>
