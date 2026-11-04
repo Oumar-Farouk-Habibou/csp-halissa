@@ -13,9 +13,7 @@ const hasAudio = ref(true) // le lecteur se cache si hymne.mp3 n'existe pas
         <h2 v-reveal>{{ anthem.title }}</h2>
         <p v-reveal>Par <strong>{{ anthem.author }}</strong></p>
       </div>
-
       <div v-reveal class="anthem-box">
-        
         <div v-for="(stanza, i) in anthem.stanzas" :key="i" class="stanza">
           <p v-for="line in stanza" :key="line">{{ line }}</p>
         </div>

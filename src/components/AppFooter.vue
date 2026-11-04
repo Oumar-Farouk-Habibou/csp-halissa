@@ -17,6 +17,6 @@ import { school, navLinks } from '../data/school'
         <a v-for="l in navLinks" :key="l.href" :href="l.href">{{ l.label }}</a>
       </nav>
     </div>
-    <div class="container copy">© {{ new Date().getFullYear() }} CSP Halissa — Développé avec ❤️ par Oumar Farouk — Tous droits réservés.</div>
+    <div class="container copy">© {{ new Date().getFullYear() }} CSP Halissa - Développé avec ❤️ par Oumar Farouk - Tous droits réservés.</div>
   </footer>
 </template>
