@@ -8,7 +8,7 @@
   --gold: #fca311;
   --coral: #ef6f5e;
   --teal: #1b998b;
-  --cream: #fff8ec;
+  --cream: #fff3e0;
   --paper: #ffffff;
   --ink: #1d2a44;
   --muted: #5d6b85;
@@ -73,9 +73,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* ---------- Hero ---------- */
 .hero { position: relative; padding: 150px 0 90px; background: var(--cream); overflow: hidden; }
 .hero::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(rgba(20, 33, 61, .08) 1.2px, transparent 1.2px); background-size: 26px 26px; mask-image: linear-gradient(to bottom, #000, transparent 85%); }
-.blob { position: absolute; border-radius: 50%; filter: blur(60px); opacity: .55; animation: float 12s ease-in-out infinite; }
-.b1 { width: 380px; height: 380px; background: var(--gold); top: -80px; right: -60px; }
-.b2 { width: 320px; height: 320px; background: var(--coral); bottom: -100px; left: -80px; animation-delay: -5s; }
 @keyframes float { 50% { transform: translate(24px, -30px) scale(1.08); } }
 .hero-in { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
 .pill { display: inline-block; background: #fff; border: 1px solid rgba(20, 33, 61, .12); padding: .45rem 1rem; border-radius: 999px; font-size: .82rem; font-weight: 700; color: var(--navy); margin-bottom: 22px; box-shadow: 0 6px 18px -10px rgba(20, 33, 61, .4); }
@@ -293,3 +290,9 @@ blockquote { margin: 0 0 20px; padding-left: 22px; border-left: 4px solid var(--
 .hero h1 { font-weight: 800; letter-spacing: -.04em; }
 .hero h1 em, blockquote { font-style: normal; }
 .nav { font-weight: 500; font-size: .95rem; }
+
+.brand-logo { width: 75px; height: 75px; border-radius: 18px; background: transparent; box-shadow: none; }
+.brand-logo img { object-fit: contain; }
+.f-brand .brand-logo { width: 75px; height: 75px; }
+
+.blob { display: none; }

@@ -7,7 +7,6 @@ const years = computed(() => new Date().getFullYear() - school.founded)
 
 <template>
   <section id="accueil" class="hero">
-    <div class="blob b1"></div><div class="blob b2"></div>
     <div class="container hero-in">
       <div class="hero-text">
         <span v-reveal class="pill">Complexe Scolaire Privé · Depuis {{ school.founded }}</span>

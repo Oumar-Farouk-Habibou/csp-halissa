@@ -3,14 +3,14 @@
    ========================================================== */
 export const school = {
   founded: 2009,
-  founderName: 'Nom de la fondatrice',            // ← à remplacer
+  founderName: 'Mme Amadou Mamou',            
   founderQuote:
-    "Notre ambition est simple : offrir à chaque enfant les clés pour réussir, dans un cadre où il se sent aimé, respecté et encouragé à donner le meilleur de lui-même.", // ← à remplacer par ses vrais mots
-  address: 'Quartier, Ville, Niger',               // ← à remplacer
-  phone: '+227 00 00 00 00',                       // ← à remplacer
-  email: 'contact@csphalissa.com',                 // ← à remplacer
-  hours: 'Lundi – Vendredi : 7h30 – 17h00',        // ← à vérifier
-  whatsapp: '22700000000'                          // ← numéro WhatsApp sans « + »
+    "Notre ambition est simple : offrir à chaque enfant les clés pour réussir, dans un cadre où il se sent aimé, respecté et encouragé à donner le meilleur de lui-même.", 
+  address: 'Bobiel vers fenifoot, Niamey, Niger',               
+  phone: '+227 97 71 20 60',                    
+  email: 'contact@csphalissa.com',                 
+  hours: 'Lundi – Vendredi : 8h00 – 17h00',        
+  whatsapp: '22797712060'                          
 }
 
 export const navLinks = [
