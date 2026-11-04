@@ -9,7 +9,7 @@ export const school = {
   address: 'Bobiel vers fenifoot, Niamey, Niger',               
   phone: '+227 97 71 20 60',                    
   email: 'contact@csphalissa.com',                 
-  hours: 'Lundi – Vendredi : 8h00 – 17h00',        
+  hours: 'Lundi – Vendredi : 8h00 – 17h30',        
   whatsapp: '22797712060'                          
 }
 
