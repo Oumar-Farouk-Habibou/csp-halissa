@@ -9,7 +9,7 @@ export const school = {
   address: 'Bobiel vers fenifoot, Niamey, Niger',               
   phone: '+227 97 71 20 60',                    
   email: 'contact@csphalissa.com',                 
-  hours: 'Lundi – Vendredi : 8h00 – 17h30',        
+  hours: 'Lundi – Vendredi : 8h00 – 17h30',          
   whatsapp: '22797712060'                          
 }
 
@@ -24,7 +24,7 @@ export const navLinks = [
 
 export const cycles = [
   {
-    id: 'maternelle', name: "Jardin d'enfants", color: '#ef6f5e', age: '3 – 5 ans',
+    id: 'maternelle', name: "Jardin d'enfants", color: '#fca311', age: '3 – 5 ans',
     title: 'Éveiller la curiosité, cultiver la confiance',
     text: "Un premier contact avec l'école dans un cadre chaleureux et sécurisant, où l'apprentissage passe par le jeu, la découverte et la parole.",
     points: ['Apprentissages par le jeu et les ateliers', 'Éveil du langage, des chiffres et des arts', 'Socialisation et autonomie', 'Encadrement attentif et bienveillant'],
@@ -72,11 +72,11 @@ export const icons = {
 }
 
 export const journey = [
-  { age: '3 ans',  step: 'Les premiers pas',    text: "Entrée au jardin d'enfants : jeux, découvertes et premières amitiés.", color: '#ef6f5e' },
+  { age: '3 ans',  step: 'Les premiers pas',    text: "Entrée au jardin d'enfants : jeux#9a6324', découvertes et premières amitiés.", color: '#fca311' },
   { age: '6 ans',  step: 'Les bases du savoir', text: "Au primaire, l'enfant apprend à lire, écrire, compter et réfléchir.",   color: '#fca311' },
   { age: '11 ans', step: "L'affirmation",       text: 'Au collège, il gagne en autonomie, en méthode et en confiance.',        color: '#1b998b' },
   { age: '15 ans', step: 'Le cap vers le bac',  text: "Au lycée, il se spécialise et prépare son avenir avec ambition.",       color: '#14213d' },
-  { age: '18 ans', step: "L'envol",             text: 'Bachelier, il poursuit ses études ou entre dans la vie active, prêt à réussir.', color: '#ef6f5e' }
+  { age: '18 ans', step: "L'envol",             text: 'Bachelier, il poursuit ses études ou entre dans la vie active, prêt à réussir.', color: '#fca311' }
 ]
 
 export const gallery = [
@@ -90,7 +90,7 @@ export const gallery = [
 ]
 
 export const news = [
-  { tag: 'Rentrée',   color: '#ef6f5e', title: 'Inscriptions ouvertes pour la prochaine rentrée', text: "Les pré-inscriptions sont ouvertes pour tous les cycles, du jardin d'enfants au lycée." },
+  { tag: 'Rentrée',   color: '#fca311', title: 'Inscriptions ouvertes pour la prochaine rentrée', text: "Les pré-inscriptions sont ouvertes pour tous les cycles, du jardin d'enfants au lycée." },
   { tag: 'Événement', color: '#1b998b', title: 'Journées portes ouvertes', text: "Venez découvrir l'école, rencontrer l'équipe pédagogique et visiter nos classes." },
   { tag: 'Réussite',  color: '#fca311', title: 'Félicitations à nos élèves', text: 'Retour sur les résultats et les belles réussites de nos élèves aux examens.' }
 ]

@@ -26,10 +26,10 @@ const submitForm = () => {
       </div>
       <form v-reveal class="form" @submit.prevent="submitForm">
         <label>Nom du parent / tuteur
-          <input v-model.trim="form.parent" required placeholder="Ex. Mme Ousmane">
+          <input v-model.trim="form.parent" required placeholder="Ex. Mr Oumar Farouk">
         </label>
         <label>Téléphone
-          <input v-model.trim="form.phone" required inputmode="tel" placeholder="Ex. +227 90 00 00 00">
+          <input v-model.trim="form.phone" required inputmode="tel" placeholder="Ex. +227 91 91 25 99">
         </label>
         <label>Niveau souhaité
           <select v-model="form.level" required>
